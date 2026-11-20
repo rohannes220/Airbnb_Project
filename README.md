@@ -11,16 +11,16 @@ Can Airbnb guest reviews help us identify which listings in Boston have low rati
 
 | Role | Name | GitHub |
 | --- | --- | --- |
-| Data lead | Smith | _TBD_ |
-| Model lead | Smith + Rohan | _TBD_ |
-| Delivery lead | Rohan | _TBD_ |
+| Data lead | Rohan | [@rohannes220]|
+| ML Lead | Smith | [@smithelie] |
+| Git Lead | Hritvik | [@Hritvikk23] |
 
 ### Actual contributions
 
 List what each person actually did, with links to the pull requests or commits.
 
 | Name | Contribution | PR / commit links |
-| --- | --- | --- |
+| Hritvik | Reviewed PR #4 (data card), verifying it against the downloaded data, and reviewed and updated PR #5 (Team section and Question) | [#4](https://github.com/rohannes220/Airbnb_Project/pull/4) [#5](https://github.com/rohannes220/Airbnb_Project/pull/5) |
 | _TBD_ | _TBD_ | _TBD_ |
 
 ## Repository layout
