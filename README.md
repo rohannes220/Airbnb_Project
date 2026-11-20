@@ -1,1 +1,60 @@
 # Airbnb_Project
+
+DS5110 Final Project, Track 4: Reviews. This repository is being prepared for
+**Milestone 1 (Proposal)**, release `v0.1-proposal`. No machine learning model has been built yet.
+
+## Question
+
+Can Airbnb guest reviews help us identify which listings in Boston have low ratings, even when most listings have high ratings? Our project will look at Airbnb listings in Boston using data from two different times in 2026, including September 19, 2026. We want to see whether the words guests use in their reviews can help us tell the difference between highly rated and lower-rated listings. We will use reviews.csv.gz to see what guests wrote and listings.csv.gz to find each listing's overall rating. Our goal is to build a model that uses these reviews to predict whether a listing has a low rating. One limitation is that not every guest leaves a review, so the comments may not reflect everyone's experience. We will focus on listings that have both reviews and ratings available.
+
+## Team
+
+| Role | Name | GitHub |
+| --- | --- | --- |
+| Data lead | Rohan | [@rohannes220]|
+| ML Lead | Smith | [@smithelie] |
+| Git Lead | Hritvik | [@Hritvikk23] |
+
+### Actual contributions
+
+List what each person actually did, with links to the pull requests or commits.
+
+| Name | Contribution | PR / commit links |
+| Hritvik | Reviewed PR #4 (data card), verifying it against the downloaded data, and reviewed and updated PR #5 (Team section and Question) | [#4](https://github.com/rohannes220/Airbnb_Project/pull/4) [#5](https://github.com/rohannes220/Airbnb_Project/pull/5) |
+| Rohan | I helped set up the GitHub repository for our Airbnb project and contributed to adding and organizing the data needed for the project. | _TBD_ |
+| Smith | _TBD_ | _TBD_ |
+
+## Repository layout
+
+```text
+data/README.md   data source, snapshots, license, files, known limits, checksums
+data/raw/        downloaded frozen snapshots (not tracked by git)
+data/derived/    files built from data/raw/ (not tracked by git)
+sql/             SQL queries and schema
+src/             Python source code
+tests/           automated tests
+reports/         figures and milestone reports
+docs/            project documents
+Makefile         data download and verification (make data)
+requirements.txt pinned Python dependencies
+MANIFEST.sha256  SHA-256 checksums of the raw data files
+```
+
+## Getting started
+
+```bash
+python3 -m venv .venv && source .venv/bin/activate
+make install
+make data      # download the frozen snapshots into data/raw/ and verify SHA-256 checksums
+```
+
+See [data/README.md](data/README.md) (the data card) for the snapshots, files and checksums.
+
+## Data attribution
+
+Data from [Inside Airbnb](https://insideairbnb.com), Boston snapshots of 2026-06-15 and 2026-09-19,
+licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## Workflow
+
+All changes to the default branch go through reviewed pull requests.
