@@ -21,7 +21,8 @@ List what each person actually did, with links to the pull requests or commits.
 
 | Name | Contribution | PR / commit links |
 | Hritvik | Reviewed PR #4 (data card), verifying it against the downloaded data, and reviewed and updated PR #5 (Team section and Question) | [#4](https://github.com/rohannes220/Airbnb_Project/pull/4) [#5](https://github.com/rohannes220/Airbnb_Project/pull/5) |
-| _TBD_ | _TBD_ | _TBD_ |
+| Rohan | I helped set up the GitHub repository for our Airbnb project and contributed to adding and organizing the data needed for the project. | _TBD_ |
+| Smith | _TBD_ | _TBD_ |
 
 ## Repository layout
 
