@@ -1,7 +1,5 @@
 # Airbnb_Project
 
-DS5110 Final Project, Track 4: Reviews. This repository is being prepared for
-**Milestone 1 (Proposal)**, release `v0.1-proposal`. No machine learning model has been built yet.
 
 ## Question
 
