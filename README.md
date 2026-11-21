@@ -19,7 +19,7 @@ List what each person actually did, with links to the pull requests or commits.
 
 | Hritvik | Reviewed PR #4 (data card), verifying it against the downloaded data, and reviewed and updated PR #5 (Team section and Question) | [#4](https://github.com/rohannes220/Airbnb_Project/pull/4) [#5](https://github.com/rohannes220/Airbnb_Project/pull/5) |
 | Rohan | I helped set up the GitHub repository for our Airbnb project and contributed to adding and organizing the data needed for the project. 
-| Smith | Reviewed and tested PRS 1-3; implemented environment validation and cached data recovery enhancements|
+| Smith | Reviewed and tested PRS 1-3; implemented environment validation and cached data recovery enhancements|[#6](https://github.com/rohannes220/Airbnb_Project/pull/6)
 
 ## Repository layout
 
@@ -39,11 +39,22 @@ MANIFEST.sha256  SHA-256 checksums of the raw data files
 
 ## Getting started
 
+### Python environment
+
+Python **3.13.x** is the supported and tested version for this project. The pinned dependencies were successfully installed using Python 3.13 on Linux.
+
+Dependency installation failed under Python 3.10. Other Python versions have not been validated.
+
+### Setup
+
 ```bash
-python3 -m venv .venv && source .venv/bin/activate
+python3.13 -m venv .venv
+source .venv/bin/activate
 make install
 make data      # download the frozen snapshots into data/raw/ and verify SHA-256 checksums
 ```
+
+The `make install` target validates the Python version before installing dependencies.
 
 See [data/README.md](data/README.md) (the data card) for the snapshots, files and checksums.
 
