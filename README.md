@@ -19,7 +19,7 @@ List what each person actually did, with links to the pull requests or commits.
 
 | Hritvik | Reviewed PR #4 (data card), verifying it against the downloaded data, and reviewed and updated PR #5 (Team section and Question) | [#4](https://github.com/rohannes220/Airbnb_Project/pull/4) [#5](https://github.com/rohannes220/Airbnb_Project/pull/5) |
 | Rohan | I helped set up the GitHub repository for our Airbnb project and contributed to adding and organizing the data needed for the project. 
-| Smith | Reviewed and tested PRS 1-3; implemented environment validation and cached data recovery enhancements|
+| Smith | Reviewed and tested PRS 1-3; implemented environment validation and cached data recovery enhancements|[#6](https://github.com/rohannes220/Airbnb_Project/pull/6)
 
 ## Repository layout
 
